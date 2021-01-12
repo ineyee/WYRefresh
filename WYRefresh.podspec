@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "WYRefresh"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "WYRefresh，组件化创建私有库练习"
   spec.homepage     = "https://github.com/ineyee/WYRefresh"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
