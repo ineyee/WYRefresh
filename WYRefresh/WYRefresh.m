@@ -10,4 +10,14 @@
 
 @implementation WYRefresh
 
++ (void)refreshHeader {
+    
+    NSLog(@"下拉刷新");
+}
+
++ (void)refreshFooter {
+    
+    NSLog(@"上拉加载");
+}
+
 @end

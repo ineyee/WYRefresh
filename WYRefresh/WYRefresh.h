@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface WYRefresh : NSObject
 
++ (void)refreshHeader;
++ (void)refreshFooter;
+
 @end
 
 NS_ASSUME_NONNULL_END
