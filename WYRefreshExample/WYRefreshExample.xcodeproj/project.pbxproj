@@ -14,6 +14,7 @@
 		7D1E74B025AD442200CE9A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1E74AF25AD442200CE9A7B /* Assets.xcassets */; };
 		7D1E74B325AD442200CE9A7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1E74B125AD442200CE9A7B /* LaunchScreen.storyboard */; };
 		7D1E74B625AD442200CE9A7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1E74B525AD442200CE9A7B /* main.m */; };
+		7DD86A0825AD4E0100FBF6F5 /* WYRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD86A0725AD4E0100FBF6F5 /* WYRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		7D1E74B225AD442200CE9A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D1E74B425AD442200CE9A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D1E74B525AD442200CE9A7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DD86A0625AD4E0100FBF6F5 /* WYRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYRefresh.h; sourceTree = "<group>"; };
+		7DD86A0725AD4E0100FBF6F5 /* WYRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYRefresh.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 		7D1E74BC25AD443200CE9A7B /* WYRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				7DD86A0625AD4E0100FBF6F5 /* WYRefresh.h */,
+				7DD86A0725AD4E0100FBF6F5 /* WYRefresh.m */,
 			);
 			name = WYRefresh;
 			path = ../../WYRefresh;
@@ -158,6 +163,7 @@
 				7D1E74AB25AD441E00CE9A7B /* ViewController.m in Sources */,
 				7D1E74A525AD441E00CE9A7B /* AppDelegate.m in Sources */,
 				7D1E74B625AD442200CE9A7B /* main.m in Sources */,
+				7DD86A0825AD4E0100FBF6F5 /* WYRefresh.m in Sources */,
 				7D1E74A825AD441E00CE9A7B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
